@@ -1,0 +1,35 @@
+Have you ever wondered what happens when you type "https://www.google.com" in your browser and hit the enter key? Most of us use the internet every day, but few of us know the underlying technology and processes that allow us to access and browse the web. In this blog post, we'll take a look at the various steps involved in loading a webpage and how the different components of the internet work together to make it possible.
+
+Step 1: DNS request
+
+When you type "https://www.google.com" in your browser and press enter, the first thing that happens is a DNS request. DNS stands for Domain Name System, and it's responsible for translating human-readable domain names (like "google.com") into IP addresses that computers can understand. Your browser sends a request to a DNS server to look up the IP address associated with the domain name "google.com." The DNS server responds with the IP address, allowing your browser to establish a connection with Google's servers.
+
+Step 2: TCP/IP
+
+Once your browser has the IP address for "google.com," it establishes a TCP/IP connection with Google's servers. TCP/IP is a set of communication protocols that allow computers to exchange data over the internet. This connection is made up of several layers, each responsible for different aspects of data transmission, including data segmentation, error checking, and flow control.
+
+Step 3: Firewall
+
+Before your request reaches Google's servers, it passes through several layers of security, including firewalls. Firewalls are network security systems that monitor and control incoming and outgoing network traffic. They use rules to determine which traffic is allowed and which is blocked, based on factors like the source and destination IP addresses and the type of traffic being transmitted.
+
+Step 4: HTTPS/SSL
+
+Once your connection is established, your browser sends an HTTPS request to Google's servers. HTTPS stands for Hypertext Transfer Protocol Secure and is a more secure version of HTTP, the protocol used for transmitting web pages over the internet. HTTPS encrypts the data being transmitted between your browser and the web server, making it more difficult for hackers to intercept and steal sensitive information. SSL (Secure Sockets Layer) is the technology that enables HTTPS encryption.
+
+Step 5: Load-balancer
+
+Google receives millions of requests every second, and to handle this load, they use load-balancers. Load-balancers are devices that distribute network traffic across multiple servers to ensure that no single server gets overloaded. They help to improve website performance and prevent downtime by ensuring that requests are routed to the most available and responsive servers.
+
+Step 6: Web server
+
+Once your request reaches Google's servers, it's routed to a web server. A web server is a software program that serves web pages to clients over the internet. The web server retrieves the requested page from Google's database and sends it back to your browser in a format that it can understand.
+
+Step 7: Application server
+
+In some cases, the requested page may require dynamic content, like a search result or a personalized recommendation. In these cases, the web server passes the request to an application server. An application server is a software program that processes application logic and data to generate dynamic content. The application server retrieves the required data from Google's database, processes it, and sends it back to the web server, which then sends it to your browser.
+
+Step 8: Database
+
+Finally, the application server retrieves the required data from Google's database. A database is a structured collection of data that can be accessed, managed, and updated. Google uses databases to store and retrieve information like search results, user information, and web page content.
+
+In conclusion, accessing a website like Google involves a complex series of steps, including DNS requests, TCP/IP connections, firewall checks, HTTPS/SSL encryption, load-balancers, web servers, application servers, and databases. All of these components work together to deliver webpages that are fast, secure, and reliable. Understanding how these components work together can help you troubleshoot issues and optimize the performance of your own website.
